@@ -1,4 +1,4 @@
-package-as: MoonMedia
+package-as: RedCenter
 
 ignore:
   - .vscode
