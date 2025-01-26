@@ -1,0 +1,10 @@
+## Interface: 110007
+## Title: |cff33ff99RedCenter|r
+## Version: 1.0
+## Author: River
+## Notes: Center of the universe!
+## RequiredDeps: ElvUI
+## DefaultState: Enabled
+## IconTexture: Interface\AddOns\RedCenter\Logo
+
+Main.lua

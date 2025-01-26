@@ -1,0 +1,5 @@
+package-as: RedCenter
+
+ignore:
+  - .vscode
+  - .github
