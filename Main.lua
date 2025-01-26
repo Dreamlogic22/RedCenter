@@ -1,6 +1,6 @@
 --[[--------------------------------------------------------------------
 
-    RedCenter 1.0 (January 26, 2025)
+    RedCenter 1.1 (January 26, 2025)
 
 ----------------------------------------------------------------------]]
 
@@ -13,8 +13,7 @@ local function Initialize()
     C_Timer.After(1, function()
         local IsRotateMinimapEnabled = GetCVar("rotateMinimap")
         if IsRotateMinimapEnabled and IsRotateMinimapEnabled == "0" then
-            local Success = SetCVar("rotateMinimap", 1)
-            print(Success)
+            SetCVar("rotateMinimap", 1)
         end
     end)
 end
